@@ -34,7 +34,7 @@ export const ProductBriefDemo = () => {
         </h1>
         <div className="mt-10 flex justify-between items-center">
           <div className="flex  items-center">
-            <AnimatedScaleIcon className="inline-flex h-[130px] w-[130px] bg-[#F2F2F2] rounded-full justify-center items-center relative left-4">
+            <AnimatedScaleIcon className="inline-flex h-[130px] w-[130px] bg-[#F2F2F2] rounded-full justify-center items-center relative left-4 z-20">
               <Image alt="orange" src="/images/orange-thunder-icon.png" width={90} height={90} />
             </AnimatedScaleIcon>
             <AnimatedScaleIcon className="inline-flex flex-col h-[130px] w-[130px] text-center bg-[#FFD026] rounded-full justify-center items-center">

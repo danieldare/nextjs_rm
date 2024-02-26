@@ -44,6 +44,7 @@ export const DevicesDashboard = () => {
               initial={{ y: 100 }}
               whileInView={{ y: 0 }}
               transition={{ duration: 0.5, delay: 0.2 }}
+              exit={{ opacity: 0 }}
               className="absolute -left-[250px] -bottom-[100px] z-10"
             >
               <Image
@@ -57,6 +58,7 @@ export const DevicesDashboard = () => {
             <motion.div
               initial={{ y: 200 }}
               whileInView={{ y: 0 }}
+              exit={{ opacity: 0 }}
               transition={{ duration: 0.6 }}
               className="relative h-[700px] w-[700px]"
             >

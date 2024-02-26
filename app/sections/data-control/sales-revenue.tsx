@@ -19,7 +19,15 @@ export const SalesRevenue = () => {
       className="bg-white min-w-[210px] rounded-3xl border border-[#F0F0F0] shadow-[#eaeaeaa7] shadow-xl relative top-[20px] -left-[20px] flex flex-col justify-between items-start gap-2 px-3 py-4"
     >
       <p className="text-ramos-grey-100 text-xs">Sales revenue</p>
-      <AnimatedCounter from={100} to={131} suffix="K" className="text-ramos-black  text-2xl mb-2" />
+      <div>
+        <span>$ </span>
+        <AnimatedCounter
+          from={100}
+          to={131}
+          suffix="K"
+          className="text-ramos-black  text-2xl mb-2"
+        />
+      </div>
       <ProgressTripleBar />
       <div className="flex flex-col w-full">
         <div className="flex justify-between items-center gap-10">

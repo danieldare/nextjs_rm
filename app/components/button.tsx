@@ -1,7 +1,7 @@
 import { MotionProps, motion } from "framer-motion";
 
 type ButtonProps = {
-  variant: "primary" | "secondary";
+  variant?: "primary" | "secondary";
   children: React.ReactNode;
 } & React.ButtonHTMLAttributes<HTMLButtonElement> &
   MotionProps;
@@ -16,7 +16,7 @@ const textColors = {
   secondary: "text-ramos-black",
 } as const;
 
-export const Button = ({ variant, children, ...rest }: ButtonProps) => {
+export const Button = ({ variant = "primary", children, ...rest }: ButtonProps) => {
   return (
     <motion.button
       initial={{ scale: 1.15 }}

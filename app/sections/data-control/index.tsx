@@ -18,7 +18,7 @@ export const DataControl = () => {
           <div className="flex gap-4 justify-center items-center">
             <div className="relative p-[40px_90px] self-stretch justify-between flex flex-col  flex-1 overflow-hidden rounded-3xl bg-[#F9F9F9] text-center mx-auto shadow-xl shadow-[#b0aeae27] border border-[#ededed] ">
               <div className="absolute w-full h-1/2 bg-[#F9F9F9] top-0 left-0 bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-[size:6rem_4rem]" />
-              <div className="flex relative left-[15px]">
+              <div className="flex relative">
                 <CustomerServiceCard />
                 <SalesRevenue />
               </div>

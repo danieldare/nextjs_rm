@@ -1,4 +1,5 @@
 "use client";
+import { Button } from "@/app/components/button";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
@@ -14,9 +15,9 @@ export const MonitoringIndicators = () => {
         </div>
         <p className="text-xs mt-14 text-ramos-grey-100">Total profit</p>
         <p className="text-2xl mt-2">$ 264.2K</p>
-        <button className="min-w-[100px] self-start bg-ramos-yellow text-ramos-black rounded-lg py-2 px-3 mt-4 text-[9px]  shadow-lg">
+        <Button className="min-w-[100px] self-start bg-ramos-yellow text-ramos-black rounded-lg py-2 px-3 mt-4 text-[9px]  shadow-lg">
           Data Visualization
-        </button>
+        </Button>
       </div>
       <BarChart />
     </div>

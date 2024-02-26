@@ -3,14 +3,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { LiveUpdateMeter } from "./live-update-meter";
 import { AnimatedCounter } from "@/app/components/animated-counter";
+import { Button } from "@/app/components/button";
 
 export const AnalyticsStats = () => {
   return (
     <div className="bg-white pt-8 pl-8  border border-[#e6e6e67b] rounded-[50px] shadow-xl shadow-[#eaeaea84] flex justify-between items-center gap-8 overflow-hidden flex-[60%]">
       <div className="flex flex-col self-start">
-        <button className="self-start bg-ramos-yellow text-ramos-black rounded-lg py-2 px-3 text-[10px]  shadow-lg">
+        <Button className="self-start bg-ramos-yellow text-ramos-black rounded-lg py-2 px-3 text-[10px]  shadow-lg">
           Setting up reports
-        </button>
+        </Button>
         <h4 className="text-[#1A1A1A] text-[20px] mt-14">
           Fast and easy access
           <br /> to analytics
